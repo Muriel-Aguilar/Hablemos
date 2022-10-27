@@ -58,12 +58,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+   
 }
 
 .header {
     height: 60vh !important;
     background-color: #cdc8ee;
+    
     
 }
 
@@ -229,3 +230,5 @@ footer{
     background-color: #bdcaf2;
     
 }
+
+
