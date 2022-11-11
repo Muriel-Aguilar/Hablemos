@@ -119,6 +119,18 @@ button{
     cursor: pointer;
 }
 
+.yaTengoCuenta{
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.yaTengoCuenta a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 @media screen and (max-width:500px){
     form{
         width: 80%;
