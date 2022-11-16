@@ -6,19 +6,26 @@
     box-sizing: border-box;
 }
 
+.imgc{
+    width:21em ;
+    height:15em ;
+}
+
 body {
    font-family: 'Roboto', sans-serif;
    display: flex;
    justify-content: center;
    align-items: center;
-   
+   background-color: #bdcaf2;
 
 }
 .container{
     width: 100%;
-    max-width: 83em;
+    max-width: 75em;
+    max-height: 35em;
     display: flex;
     justify-content: center; 
+    margin-left: 4.5em;
     
 
     
@@ -33,15 +40,40 @@ body {
     margin-left: 2em;
 }
 
-.imgc:hover {
+.card:hover{
     -webkit-transform:scale(1.05);
-    transform:scale(1.1);
-    transition: 0.5s;
+    transform:scale(1.1.9);
+    transition: 0.3s;
 }
 
 .contenido {
     padding: 0;
-    margin: 0;
+    margin-bottom: 2em;
+}
+
+.contenido p {
+    padding:  0em 1em;
+    font-size: 15px;
+    color:  #000000;
+    margin-top: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+    font-size: 15px;
+    margin-left: 8.5em;
+}
+
+.card a:hover {
+    color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(0, 0, 0, 0.24);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+
+.card h3 {
+    margin-top: 1em;
+    margin-left: 1.5em;
 }
 
 .head {
@@ -53,6 +85,7 @@ body {
     position: fixed;
     width: 100%;
     z-index: 100;
+    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.178);
 }
 
 .navbar {
@@ -149,6 +182,11 @@ p {
     background: #dbc6e8
 }
 
+.container {
+    padding: 30px;
+    background-color: #bdcaf2 ;
+}
+
 .box-container {
     display: flex;
     justify-content: center;
@@ -164,7 +202,7 @@ p {
     text-align: center;
     border-radius: 1rem;
     box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
-    margin: 2rem;   
+    margin: 2em;   
 }
 
 .box-container .box i {
@@ -209,6 +247,11 @@ p {
     padding-bottom: 0;
 }
 
+.redes i {
+    font-size: 2em;
+    
+}
+
 
 @media (max-width: 768px) {
 
@@ -229,6 +272,7 @@ p {
 
 .title1 {
     font-size: 30px;
+    text-align: center;
 }
 
 .title2 {
@@ -253,8 +297,8 @@ p {
 }
 
 footer{
-    padding-bottom: 10em;
-    font-size: 12px;
+    padding: 2.5em 5em;
+    font-size: 1.1em;
     text-align: center;
     background-color: #bdcaf2;
     

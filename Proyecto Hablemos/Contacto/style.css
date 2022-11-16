@@ -1,18 +1,48 @@
+:root {
+    --colorTextos: #49454567;
+}
+
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
-    background-color: #dbc6e8;
-    
+    font-family: 'Roboto';
+    background: #6190E8;  
+    /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cdc8ee, #bdcaf2);  
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cdc8ee, #bdcaf2); 
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 650px;
+justify-content: center;
+align-items: center;
+
+
+
 }
 
 h1{
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 300px;
-    
+    margin-top: 0px;
+    color: #3a7fff;
 }
 h2{
-    font-size: 50px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-top: 10px;
+    color: #6190E8;
+}
+
+.cont {
+    padding-top: 18em;
 }

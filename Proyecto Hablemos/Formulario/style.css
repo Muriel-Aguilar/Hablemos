@@ -1,55 +1,69 @@
-* {
-margin: 3;
+:root {
+    --colorTextos: #49454567;
+}
+
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 3;
 padding: 0;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
 }
 
+
 body{
-    background-color: #cdc8ee;
+    font-family: 'Roboto';
+    background: #6190E8;  
+    /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cdc8ee, #bdcaf2);  
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cdc8ee, #bdcaf2); 
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .contenedor .form .form-header .form-title{
     font-weight: normal;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#cdc8ee;
+    color:#304a96;
     text-align: center;
     padding: 14px 0;
     font-size: 40px;
 }
 
 .contenedor .form{
-    background: rgba(0, 0, 0,.6);
-    width: 90%;
+    background: rgba(255, 255, 255, 0.699);
+    width: 100%;
     max-width: 650px;
     margin: auto;
-    padding: 5px 35px;
     margin-top: 30px;
     padding-bottom: 30px;
-    border-radius: 50px;
+    padding: 40px 40px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
 }
 
-.contenedor .form .form-label {
+.form-label {
     display: block;
-    color: #fff;
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0e3379;
+    font-size: 15px;
     position: relative;
 }
 
 .contenedor .form .form-input, .form-textarea {
-    background: rgba(0, 0, 6, .5);
-    border: none;
+    background:transparent;
     outline: none;
     border-bottom: 2px solid #cdc8ee;
+    border:1px solid #6190E8;
     width: 100%;
     padding: 12px;
-    margin-bottom: 20px; 
+    margin: 20px 10px; 
     border-radius: 20px;
     font-size: 14px;
-    color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .contenedor .form .form-textarea{
@@ -59,19 +73,20 @@ body{
 }
 
 .contenedor .form .btn-submit{
-    width: 100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    outline: none;
-    background: #5f71a7;
-    font-size: 16px;
+    font-family: 'roboto';
+    background: linear-gradient(to right, #cdc8ee, #7386be);
     border: none;
-    color: #fff;
-    padding: 15px 0;
+    display: block;
+    width: 60%;
+    margin:auto;
+    color: #304a96;
+    height: 40px;
+    font-size: 16px;
     cursor: pointer;
-    transition: all .5s ease;
-    border-radius: 8px;
+    border-radius: 10px;
+
 }
 
 .contenedor .form .btn-submit:hover  {
-    background: #7386be;
+    background: linear-gradient(to right, #6359a0, #a5b3dd);
 }

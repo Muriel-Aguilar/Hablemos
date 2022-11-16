@@ -1,17 +1,43 @@
+:root {
+    --colorTextos: #49454567;
+}
+
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: #dbc6e8;
+    font-family: 'Roboto';
+    background: #6190E8;  
+    /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cdc8ee, #bdcaf2);  
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cdc8ee, #bdcaf2); 
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
+    text-align: center;
+    color: #6190E8;
+    margin-top: 0.1em;
 }
 img{
+    margin-top: 1em;
     width: 400px;
-    height: 500px;
-
+    height: 550px;
+    border: 1px solid #6190E8 ;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #6190e869;
 }
 
 p{
     font-size: 20px;
+    text-align: center;
+    color: #6190E8;
 }
